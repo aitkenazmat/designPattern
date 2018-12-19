@@ -1,4 +1,4 @@
-package pattern.strategy;
+package pattern.strategy.example1;
 
 public class FlyWithWings implements FlyBehavior {
     public void fly() {
