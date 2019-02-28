@@ -9,6 +9,7 @@ public abstract class Decorator implements InterfaceComponent {
     }
 
     public void doOperation() {
+
         interfaceComponent.doOperation();
     }
 
