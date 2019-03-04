@@ -2,6 +2,8 @@ package pattern.decorator.notifier;
 
 public class FacebookDecarator extends DecoratorSender {
 
+
+
     public FacebookDecarator(Notifier notifier) {
         super(notifier);
     }

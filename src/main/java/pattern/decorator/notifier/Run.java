@@ -14,7 +14,5 @@ public class Run {
 
         Notifier notifier2 = new FacebookDecarator(new SmsDecorator(new MailSender()));
         notifier2.send("","");
-
-
     }
 }

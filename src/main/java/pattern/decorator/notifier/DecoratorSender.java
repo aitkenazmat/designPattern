@@ -1,7 +1,6 @@
 package pattern.decorator.notifier;
 
 public abstract class DecoratorSender implements Notifier {
-
     Notifier notifier;
 
     public DecoratorSender(Notifier notifier) {
