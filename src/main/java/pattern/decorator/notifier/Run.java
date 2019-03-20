@@ -12,7 +12,7 @@ public class Run {
 
         System.out.println("---------------------------------------");
 
-        Notifier notifier2 = new FacebookDecarator(new SmsDecorator(new MailSender()));
+        Notifier notifier2 = new SmsDecorator(new FacebookDecarator (new MailSender()));
         notifier2.send("","");
     }
 }
